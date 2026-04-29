@@ -1,0 +1,99 @@
+.CEOteam{
+    margin: 50px auto;
+    text-align: center;
+    padding: 100px ;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(180deg,
+            rgb(5, 100, 177), #747474 100%), url(../../assets/header_img.png );
+}
+.CEOteam h3{
+    font-size: 48px;
+}
+.CEOteam p{
+    margin:10px;
+}
+.CEO-containers{
+     
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.imgSize{
+   
+    border: 2px solid orange;
+    padding: 2px;
+    border-radius: 20px 20px;
+}
+.ParaGraphTitle{
+    font-size: 14px;
+}
+.iconStyle{
+    width: 30px;
+   margin-right: 10px;
+}
+
+@media screen  and (max-width:576px) {
+    .CEOteam{
+    margin: 50px auto;
+    text-align: center;
+    padding: 40px ;
+    border-radius: 10px;
+    }
+    .CEOteam h3{
+        font-size: 32px;
+        font-weight: 500;
+    }
+    .CEOteam p{
+        margin:10px;
+        font-size: 10px;
+    }
+    .CEO-containers{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        justify-content: center;
+        align-items: center;
+       
+    }
+   .NameTitle{
+    font-weight: 400;
+   }
+   .ParaGraphTitle{
+  
+    font-weight: 300;
+}
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .CEOteam{
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px ;
+    border-radius: 10px;
+    }
+    .CEO-containers{
+     
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    }
+    .CEOteam h3{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .CEOteam p{
+        margin:10px;
+        font-size: 11px;
+    }
+    .NameTitle{
+    font-weight: 700;
+    font-size: 14px;
+   }
+}
