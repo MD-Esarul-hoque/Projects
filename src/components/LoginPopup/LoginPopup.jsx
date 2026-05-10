@@ -4,6 +4,8 @@ import {assets} from'../../assets/assets'
 import { StoreContext } from '../../Context/StoreContext'
 import axios from "axios"
 
+
+
 const LoginPopup = ({setShowLogin}) => {
 
     const {url,setToken}=useContext(StoreContext)
@@ -42,6 +44,9 @@ const LoginPopup = ({setShowLogin}) => {
         }
         else{
           alert(response.data.message)
+          
+          
+
         }
     }
     
