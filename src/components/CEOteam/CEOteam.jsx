@@ -14,7 +14,7 @@ const CEOteam = () => {
                     <img className='imgSize' src={assets.liton_islam} alt="" srcset="" />
                     <img className='rating_imag' src={assets.rating_starts} alt="" srcset="" />
                 </div>
-                <h4 className='NameTitle'>Liton Islam</h4>
+                <h4 className='NameTitle'>Mr. Liton Islam</h4>
                 <p className='ParaGraphTitle'>CEO of E.AN Foods</p>
                 <div >
                     <img className="iconStyle" src={assets.facebook_icon} alt="" srcset="" />
