@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 import '../Cart/Cart.css'
 import {StoreContext} from '../../Context/StoreContext'
 import { useNavigate } from 'react-router';
+import { assets } from '../../assets/assets';
 
 const Cart = () => {
   const {cartItems,food_list,removeFromCart,getTotalCartAmount,url}=useContext(StoreContext);
@@ -62,12 +63,8 @@ const Cart = () => {
           </div>
            <button onClick={()=>navigate('/order')}>Proceed to Checkout</button>
         </div>
-        <div className="cart-promocode">
-          <p>If you have a Promo Code, Enter it here</p>
-          <div className="cart-promocode-input">
-            <input type="text" placeholder='Promo Code' />
-            <button >Submit</button>
-          </div>
+        <div >
+          <img className='img_cart' src={assets.cartee} alt="" srcset="" />
         </div>
 
       </div>

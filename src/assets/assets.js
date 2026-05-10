@@ -57,11 +57,14 @@ import selector_icon from './selector_icon.png'
 import rating_starts from './rating_starts.png'
 import profile_icon from './profile_icon.png'
 import bag_icon from './bag_icon.png'
+import cartee from './cartee.jpg'
 import logout_icon from './logout_icon.png'
 import parcel_icon from './parcel_icon.png'
 import liton_islam from './liton_islam.png'
 import naser from './naser.png'
 import esarul from './esarul.png'
+import Abu_bakkar_siddique from './Abu_bakkar_siddique.png'
+
 
 
 export const assets = {
@@ -83,10 +86,12 @@ export const assets = {
     profile_icon,
     logout_icon,
     bag_icon,
+    cartee ,
     parcel_icon,
     liton_islam,
     naser,
-    esarul
+    esarul,
+    Abu_bakkar_siddique
 }
 
 export const menu_list = [
